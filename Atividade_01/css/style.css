@@ -1,0 +1,17 @@
+[type="checkbox"]+span:not(.lever) {
+    padding-left: 22px !important;
+}
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span {
+    padding-left: 22px !important;
+}
+.myClass {
+    margin-right: 20px;
+}
+.recuo {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+nav {
+    position: fixed;
+    z-index: 100;
+}
