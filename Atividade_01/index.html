@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atividade 01</title>
+	<meta charset="utf-8">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('select').material_select();
+		  });
+	</script>
+
+	<style type="text/css">
+		[type="checkbox"]+span:not(.lever) {
+			padding-left: 22px !important;
+		}
+		[type="radio"]:not(:checked)+span, [type="radio"]:checked+span {
+			padding-left: 22px !important;
+		}
+		.myClass {
+			margin-right: 20px;
+		}
+	</style>
+
+
+</head>
+<body>
+
+	<nav class=" indigo darken-3" >
+	    <div class="nav-wrapper container">
+	      <a href="#" class="brand-logo">Formulário de Cadastro</a>
+	    </div>
+	  </nav>
+
+	<div class="container">
+		<div class="row" style="margin-top: 25px;">
+			<div class="input-field col s6">
+				<input id="user" type="text">
+				<label for="last_name">Usuário</label>
+			</div>
+				<div class="input-field col s6">
+				<input id="pass" type="password">
+				<label for="last_name">Senha</label>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="input-field col s12">
+				<input id="user" type="text">
+				<label for="last_name">Nome completo</label>
+			</div>
+		</div>
+
+		<div class="row">
+			<p>
+				<span style="margin-right: 20px;">Estado Civil: </span>
+			    <label class="myClass">
+			      <input class="with-gap" name="group3" type="radio" />
+			      <span>Solteiro</span>
+			    </label>
+
+			   <label class="myClass">
+			      <input class="with-gap" name="group3" type="radio" />
+			      <span>Casado</span>
+			    </label>
+
+			  </p>
+		</div>
+		
+		<div class="row">
+			<p>
+				<span style="margin-right: 20px;">Área de interesse: </span>
+		      <label class="myClass">
+		        <input id="indeterminate-checkbox" type="checkbox" />
+		        <span>Computação</span>
+		      </label>
+		      <label class="myClass">
+		        <input id="indeterminate-checkbox" type="checkbox" />
+		        <span>Biologia</span>
+		      </label>
+		      <label class="myClass">
+		        <input id="indeterminate-checkbox" type="checkbox" />
+		        <span>Meio Ambiente</span>
+		      </label>
+		       <label class="myClass">
+		        <input id="indeterminate-checkbox" type="checkbox" />
+		        <span>História</span>
+		      </label>
+		       <label class="myClass">
+		        <input id="indeterminate-checkbox" type="checkbox" />
+		        <span>Artes</span>
+		      </label>
+		      <label class="myClass">
+		        <input id="indeterminate-checkbox" type="checkbox" />
+		        <span>Música</span>
+		      </label>
+		    </p>
+		</div>
+		
+		<div class="row">
+			 <div class="input-field col s12">
+			    <select>
+			      <option value="" disabled selected>Selecione a UF</option>
+			      <option value="1">Paraná</option>
+			      <option value="2">Santa Catarina</option>
+			      <option value="3">Rio Grande do Sul</option>
+			    </select>
+			    <label>Materialize Select</label>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="input-field col s10">
+				<input id="user" type="text">
+				<label for="last_name">Endereço</label>
+			</div>
+			<div class="input-field col s2">
+				<input id="user" type="text">
+				<label for="last_name">Número</label>
+			</div>
+
+		</div>
+
+
+		<div class="row">
+		    <form class="col s12">
+		      <div class="row">
+		        <div class="input-field col s12">
+		          <textarea id="textarea1" class="materialize-textarea"></textarea>
+		          <label for="textarea1">Complemento</label>
+		        </div>
+		      </div>
+		    </form>
+		  </div>
+
+		  <button style="float: right;" class="btn waves-effect waves-light  indigo darken-3" type="submit" name="action">Enviar
+		      <i class="material-icons right">send</i>
+		    </button>
+
+	</div>
+
+<br/><br/><br/>
+
+</body>
+</html>
