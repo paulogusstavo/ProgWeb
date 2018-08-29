@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atividade 04</title>
+	<meta charset="utf-8">
+
+	<!-- IMPORTAÇÃO DE JQUERY -->
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+
+	<!-- MATERIALIZE -->
+	<link rel="stylesheet" href="../materialize/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- IMPORTAÇÃO DE JQUERY ATRAVÉS DE REFERÊNCIA
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	-->
+
+</head>
+<body>
+
+	<nav class="indigo darken-3" style="position: relative;">
+	    <div class="nav-wrapper container">
+				<span class="brand-logo">Atividade 04</span>
+				<ul class="right hide-on-med-and-down">
+				</ul>
+	    </div>
+	  </nav>
+
+	  <div class="container">
+	  	<h4><i class="material-icons">filter_tilt_shift</i> Exercício 1</h4>
+	  	<input type="text" id="nome" placeholder="Nome"> <br/>
+	  	<input type="text" id="sobrenome" placeholder="Sobrenome"> <br/>
+
+	  	<br/>
+
+	  	<button onclick="printNome()" style="float: right;" class="btn waves-effect waves-light  indigo darken-3" type="submit" name="action">Enviar
+		      <i class="material-icons right">send</i>
+		    </button>
+
+
+		<h4><i class="material-icons">filter_tilt_shift</i> Exercício 2 e 3</h4>
+
+		<center>
+		<div class="row" style="padding-left: 50px;">
+		      <div class="col s2">
+		      	<input class="centralizar" type="text" id="val_1" placeholder="Valor 1">
+		      </div>
+		      <div class="col s2">
+		      	<span class="operador" id="operador">?</span>
+		      </div>
+		      <div class="col s2">
+		      	<input class="centralizar" type="text" id="val_2" placeholder="Valor 2">
+		      </div>
+		      <div class="col s2">
+		      	<i class="material-icons">drag_handle</i>
+		      </div>
+		      <div class="col s2">
+		      	<input class="centralizar" type="text" id="result" disabled>
+		      </div>
+		  </div>
+		  </center>
+
+		  <div class="row" style="width: 100%; padding-left: 70px;">
+		  	<label class="myClass"><input name="operacao" type="radio" onclick="changeIcon('+')" /> <span>Soma</span></label>
+		  	<label class="myClass"><input name="operacao" type="radio" onclick="changeIcon('-')"/> <span>Subtrair</span></label>
+		  	<label class="myClass"><input name="operacao" type="radio" onclick="changeIcon('/')"/> <span>Dividir</span></label>
+		  	<label class="myClass"><input name="operacao" type="radio" onclick="changeIcon('*')"/> <span>Multiplicar</span></label>
+		  	
+		  	<button onclick="operacoes()" class="btn waves-effect waves-light indigo darken-3 botao" type="submit" name="action">Enviar
+		      <i class="material-icons right">send</i>
+		    </button>
+
+		  </div>
+
+		  
+
+	  </div>
+
+</body>
+</html>

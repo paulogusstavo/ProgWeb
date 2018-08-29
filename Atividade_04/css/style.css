@@ -1,0 +1,20 @@
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span {
+    padding-left: 22px !important;
+}
+.myClass {
+    margin-right: 20px;
+}
+nav {
+    z-index: 100;
+}
+.centralizar {
+	text-align: center;
+}
+
+.botao {
+	float: right; 
+	margin-right: 150px;
+}
+.operador {
+	font-size: 35px;
+}
