@@ -3,7 +3,7 @@ $(document).ready(function() {
           debug: true,
           errorElement: 'span',
           errorClass: 'invalid',
-          validClass: '',
+          validClass: 'valid',
           rules: {
               nome: {
                   required: true,
@@ -28,7 +28,8 @@ $(document).ready(function() {
                   required: true
               },
               matricula: {
-                  required: true
+                  required: true,
+                  digits: true
               },
               senha: {
                   required: true,
@@ -40,7 +41,6 @@ $(document).ready(function() {
                   equalTo: "#senha"
               }
           },
-          //For custom messages
           messages: {
               nome: {
                   required: "Insira seu nome",
@@ -66,7 +66,8 @@ $(document).ready(function() {
                   required: "Insira nome de usuário"
               },
               matricula: {
-                  required: "Insira sua matrícula"
+                  required: "Insira sua matrícula",
+                  digits: "Insira apenas números!"
               },
               senha: {
                   required: "Insira uma senha",
