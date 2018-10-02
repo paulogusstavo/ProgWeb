@@ -1,0 +1,73 @@
+<loja>
+	<compra>
+		<codigo>1</codigo>
+		<forma_pagamento>Debito</forma_pagamento>
+		<lista>
+			<produto>
+				<codigo>5</codigo>
+				<descricao>Mouse</descricao>
+				<quantidade>5</quantidade>
+				<preco>50.00</preco>
+			</produto>
+			<produto>
+				<codigo>3</codigo>
+				<descricao>Teclado</descricao>
+				<quantidade>5</quantidade>
+				<preco>60.00</preco>
+			</produto>
+			<produto>
+				<codigo>10</codigo>
+				<descricao>Monitor</descricao>
+				<quantidade>5</quantidade>
+				<preco>659.90</preco>
+			</produto>
+		</lista>
+	</compra>
+
+	<compra>
+		<codigo>2</codigo>
+		<forma_pagamento>Dinheiro</forma_pagamento>
+		<lista>
+			<produto>
+				<codigo>1</codigo>
+				<descricao>Pendrive</descricao>
+				<quantidade>20</quantidade>
+				<preco>29.90</preco>
+			</produto>
+		</lista>
+	</compra>
+
+	<compra>
+		<codigo>3</codigo>
+		<forma_pagamento>Debito</forma_pagamento>
+		<lista>
+			<produto>
+				<codigo>4</codigo>
+				<descricao>Tablet</descricao>
+				<quantidade>1</quantidade>
+				<preco>519.00</preco>
+			</produto>
+		</lista>
+	</compra>
+
+	<compra>
+		<codigo>4</codigo>
+		<forma_pagamento>Credito</forma_pagamento>
+		<lista>
+			<produto>
+				<codigo>2</codigo>
+				<descricao>Celular iOS</descricao>
+				<quantidade>1</quantidade>
+				<preco>1600.00</preco>
+			</produto>
+
+			<produto>
+				<codigo>2</codigo>
+				<descricao>Celular Android</descricao>
+				<quantidade>1</quantidade>
+				<preco>1200.00</preco>
+			</produto>
+		</lista>
+	</compra>
+
+</loja>

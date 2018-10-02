@@ -1,0 +1,21 @@
+td {
+	padding: 7px;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+
+.alihamento {
+	text-align: right;
+}
+
+tr.border td {
+  border-top: 0.2pt solid black;
+}
+
+.titulo > td {
+	font-size: 20px;
+	font-weight: bold;
+}
