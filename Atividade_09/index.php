@@ -62,7 +62,7 @@
 
 					echo "<td>";
 						echo $key2->preco;
-						$totalCompra += (float) $key2->preco;
+						$totalCompra += (float) $key2->preco*$key2->quantidade;
 					echo "</td>";			
 				echo "</tr>";
 

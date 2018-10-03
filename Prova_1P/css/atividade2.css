@@ -1,0 +1,27 @@
+tr:nth-child(2n) {
+	background-color: blue;
+	color: yellow;
+}
+
+tr:nth-child(2n+1) {
+	background-color: red;
+	color: white;
+}
+
+tr:hover {
+	background-color: green;
+	color: black;
+}
+
+tr{
+	cursor: pointer;
+}
+
+td {
+	padding: 10px;
+}
+
+tr:nth-child(1) {
+	background-color: black;
+	color: white;
+}

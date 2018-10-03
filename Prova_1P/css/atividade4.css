@@ -1,0 +1,4 @@
+#borda > td > img:hover {
+	border-style: solid;
+	border-color: #5500FF;
+}
